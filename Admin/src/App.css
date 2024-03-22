@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.App-main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.App-aside{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+ border: 1px solid lightgray;
+}
+.App-ul{
+    list-style-type: none;
+    width: 100%;
+}
+.App-li{
+    margin: 20px;
+transition: all 0.5s;
+padding: 10px;
+
+}
+.App-li:hover{
+    background-color: #ABA944;
+    border-radius: 20px;
+}
+.App-link{
+   color: black;
+   text-decoration: none; 
+
+   width: 150px;
+   padding: 5px;
+   margin: 10px;
+   font-size: x-large;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.App-data{
+    width:78%;
+}
+.main-top{
+    background-color: #ABA944;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini-top{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+.mini-top h6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3px;
+    cursor: pointer;
+}
+.top-text h2{
+    color: white;
+    align-items: center;
+    height: 100%;
+    display: flex;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: justify;
+  }
+  
+  .contact-form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #ABA944;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #8b8a38;
+  }
+  .form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-file-input {
+    margin-top: 5px;
+}
+
+.form-submit {
+    background-color: #888744;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.form-submit:hover {
+    background-color: #8b8a38;
+}
+.upload-head{
+    background-color: #ABA944;
+    width: 100%;
+    color: white;
+    padding: 30px 30px;
+    border: 1px solid lightgray;
+}
+.product-list{
+    background-color: white;
+    list-style-type: none;
+    margin: 2px 10px;
+    display: none;
+}
+.product-list li{
+transition: all 0.3s;
+    margin: 10px;
+    padding: 7px;
+}
+.product-list li:hover{
+    background-color: #ABA944;
+    border-radius: 20px;
+
+}
+.product-link{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:50px ;
+}
+.product-conatiner{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+
+}
+.product-detail{
+    display: flex;
+}
+.product-detail img{
+    height: 70px;
+    width: 70px;
+}
+.product-detail-text{
+    align-items: center;
+}
+.product-detail-text h5{
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 15px;
+}
+.product-detail-text h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.product-btn button{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 80%;
+    margin: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.product-btn button:hover{
+    background-color: #ABA944;
+    color: white;
+    box-shadow: 5px 10px 10px lightgray;
+}
+
+
+.Contact-conatiner{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+
+}
+.Contact-detail{
+    display: flex;
+}
+.Contact-detail img{
+    height: 70px;
+    width: 70px;
+}
+.Contact-detail-text{
+    align-items: center;
+    margin-left: 10px;
+}
+.Contact-detail-text h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    }
+.Contact-detail-text h5{
+font-family: Arial, Helvetica, sans-serif;
+color: gray;
+font-size: 15px;
+}
+.Contact-detail-text h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+    }
+.Contact-btn a{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 80%;
+    margin: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Contact-btn a:hover{
+    background-color: #ABA944;
+    color: white;
+    box-shadow: 5px 10px 10px lightgray;
+}
+.review-container{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid lightgray;
+}
+.review-container img{
+    height: 100px;
+width: 100px;
+}
+
+.review-detail p{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+margin: 5px;
+}
+.review-detail h5{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    }
+    .review-detail h6{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+        }
+
+.review-btn{
+    background-color: white;
+    border: 1px solid lightgray;
+
+margin: 5px 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    font-weight: 600;
+    cursor: pointer;
+}
+.review-btn:hover{
+    background-color: #ABA944;
+    color: white;
+    box-shadow: 5px 10px 10px lightgray;
+}
+.team-btn{
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 80%;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.team-btn:hover{
+    background-color: #ABA944;
+    color: white;
+    box-shadow: 5px 10px 10px lightgray;
+}
+
+.team-review{
+    height: auto;
+    background-color: white;
+    width: auto;
+    position: fixed;
+    display: none;
+    border: 1px solid lightgray;
+    margin: 20px;
+    padding: 10px;
+}
